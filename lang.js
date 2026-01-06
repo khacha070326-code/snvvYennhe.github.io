@@ -150,8 +150,8 @@ const STATIC_DATE_LINE = 'Happy Birthday to you';
             const pEl = document.querySelector('#new-ui .textLetter .contentLetter');
             const seeGiftBtn = document.getElementById('see-gift');
             if (!h2El || !pEl) return;
-            const title = 'Happy Birthday Em!';
-            const body = 'Chúc em sinh nhật thật vui vẻ, luôn xinh đẹp và hạnh phúc. Mong mọi điều tốt đẹp nhất sẽ đến với em: sức khỏe, nụ cười rạng rỡ và những ước mơ đều thành hiện thực. Cảm ơn em vì đã đến và làm cuộc đời trở nên ngọt ngào hơn. Sinh nhật thật rực rỡ nhé!';
+            const title = 'Happy Birthday Yến!';
+            const body = 'Chúc Yến sinh nhật thật vui vẻ, luôn xinh đẹp và hạnh phúc. Mong mọi điều tốt đẹp nhất sẽ đến với em: sức khỏe, nụ cười rạng rỡ và những ước mơ đều thành hiện thực. Sinh nhật thật rực rỡ nhé!';
 
             h2El.textContent = '';
             pEl.textContent = '';
@@ -354,4 +354,5 @@ const STATIC_DATE_LINE = 'Happy Birthday to you';
                 // Alternate between normal and heart-shaped images
                 if (Math.random() < 0.33) createHeartShapedImage(); else createScrollingHeartImage();
             }, intervalTime);
+
         }
